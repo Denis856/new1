@@ -73,7 +73,7 @@ ul {
    margin: auto;
    padding: 30px 0 0 0;
    @media(max-width: $wd1) {
-      width: 97%;
+      width: 96%;
    }
    &__nav {
       display: flex;
@@ -259,7 +259,7 @@ ul {
    width: 83.417%;
    margin: auto;
    @media(max-width: $wd1) {
-      width: 97%;
+      width: 96%;
    }
    &__title {
       padding: 0 0 32.3px 0;
@@ -278,7 +278,7 @@ ul {
          width: 40%;
       }
       @media(max-width: $wd3) {
-         width: 97%;
+         width: 96%;
          margin: 0 0 50px 0;
       }
    }
@@ -294,7 +294,7 @@ ul {
          width: 40%;
       }
       @media(max-width: $wd3) {
-         width: 97%;
+         width: 96%;
          margin-top: 0;
       }
    }
@@ -342,7 +342,7 @@ ul {
       width: 80%;
    }
    @media(max-width: $wd2) {
-      width: 97%;
+      width: 96%;
    }
    &__title {
       padding: 0 0 34px 0;
@@ -422,7 +422,7 @@ ul {
          width: 40%;
       }
       @media(max-width: $wd3) {
-         width: 97%;
+         width: 96%;
       }
    }
    &__img {
@@ -477,74 +477,60 @@ ul {
 
 .skills {
    padding: 85px 0 0 0;
-   display: flex;
-   align-items: center;
    width: 100%;
-   @media(max-width: $wd3) {
-      flex-direction: column-reverse;
+   &__body {
+      display: flex;
+      align-items: center;
+      background: #000;
+      @media(max-width: $wd3) {
+         flex-direction: column-reverse;
+      }
    }
    &__block,
    &__img {
       width: 50%;
-      height: 100vh;
-      @media(max-width: 1700px) {
-         height: 80vh;
-      }
-      @media(max-width: $wd1) {
-         height: 70vh;
-      }
-      @media(max-width: 1200px) {
-         height: 60vh;
-      }
-      @media(max-width: 1000px) {
-         height: 50vh;
-      }
-      @media(max-width: $wd2) {
-         height: 40vh;
-      }
       @media(max-width: $wd3) {
-         width: 100%;
+         width: 96%;
       }
    }
    &__img {
+      height: auto;
       @media(max-width: $wd3) {
-         height: auto;
          margin: 0 0 40px 0;
       }
    }
    &__block {
       color: #fff;
-      background: #000;
       height: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      height: 100vh;
-      @media(max-width: 1700px) {
-         height: 80vh;
-      }
+   }
+   &__bl_text {
+      width: 60%;
       @media(max-width: $wd1) {
-         height: 70vh;
-      }
-      @media(max-width: 1200px) {
-         height: 60vh;
-      }
-      @media(max-width: 1000px) {
-         height: 50vh;
-      }
-      @media(max-width: $wd2) {
-         height: 40vh;
+         width: 70%;
       }
       @media(max-width: $wd3) {
-         height: auto;
-         padding: 100px 20px;
+         width: 80%;
+         padding: 50px 0;
+      }
+      @media(max-width: 500px) {
+         width: 96%;
       }
    }
    &__title {
       padding: 0 0 60px 0;
-      @media(max-width: $wd2) {
-         padding: 0 0 40px 0;
+      white-space: nowrap;
+      @media(max-width: 1100px) {
+         padding: 0 0 30px 0;
+      }
+      @media(max-width: $wd3) {
+         padding: 0 0 45px 0;
+      }
+      @media(max-width: $wd4) {
+         white-space: unset;
       }
    }
    &__group {
@@ -557,20 +543,23 @@ ul {
       transition: .3s;
       width: 100%;
       @media(max-width: 1200px) {
-         padding: 0 0 5px 0;
+         padding: 0 0 0 0;
          margin: 0 0 20px 0;
-         width: 90%;
       }
       @media(max-width: $wd3) {
-         width: 100%;
+         padding: 0 0 10px 0;
+         margin: 0 0 30px 0;
       }
       p {
          font-size: 15px;
          line-height: 20 / 15 * 100%;
          letter-spacing: 1px;
          text-transform: uppercase;
-         @media(max-width: $wd2) {
+         @media(max-width: 1200px) {
             font-size: 13px;
+         }
+         @media(max-width: $wd3) {
+            font-size: 15px;
          }
       }
       &::before {
@@ -640,7 +629,7 @@ ul {
       width: 90%;
    }
    @media(max-width: $wd2) {
-      width: 97%;
+      width: 96%;
    }
    @media(max-width: $wd3) {
       display: flex;
@@ -707,7 +696,7 @@ ul {
    width: 83.33%;
    margin: auto;
    @media(max-width: $wd1) {
-      width: 97%;
+      width: 96%;
    }
    &__up {
       display: flex;
@@ -794,7 +783,7 @@ ul {
       align-items: center;
       padding: 101px 0;
       @media(max-width: $wd1) {
-         width: 97%;
+         width: 96%;
       }
       @media(max-width: $wd3) {
          flex-direction: column;
@@ -850,7 +839,7 @@ ul {
    width: 83.33%;
    margin: auto;
    @media(max-width: $wd1) {
-      width: 97%;
+      width: 96%;
    }
    @media(max-width: $wd2) {
       padding: 74px 0 0 0;

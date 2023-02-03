@@ -74,7 +74,7 @@ ul {
 }
 @media (max-width: 1420px) {
   .header {
-    width: 97%;
+    width: 96%;
   }
 }
 .header__nav {
@@ -350,7 +350,7 @@ ul {
 }
 @media (max-width: 1420px) {
   .perfect {
-    width: 97%;
+    width: 96%;
   }
 }
 .perfect__title {
@@ -385,7 +385,7 @@ ul {
 }
 @media (max-width: 770px) {
   .perfect__block1 {
-    width: 97%;
+    width: 96%;
     margin: 0 0 50px 0;
   }
 }
@@ -403,7 +403,7 @@ ul {
 }
 @media (max-width: 770px) {
   .perfect__block2 {
-    width: 97%;
+    width: 96%;
     margin-top: 0;
   }
 }
@@ -457,7 +457,7 @@ ul {
 }
 @media (max-width: 950px) {
   .works {
-    width: 97%;
+    width: 96%;
   }
 }
 .works__title {
@@ -574,7 +574,7 @@ ul {
 }
 @media (max-width: 770px) {
   .improve__block {
-    width: 97%;
+    width: 96%;
   }
 }
 .improve__img {
@@ -634,16 +634,19 @@ ul {
 
 .skills {
   padding: 85px 0 0 0;
+  width: 100%;
+}
+.skills__body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
+  background: #000;
 }
 @media (max-width: 770px) {
-  .skills {
+  .skills__body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -652,47 +655,22 @@ ul {
 }
 .skills__block, .skills__img {
   width: 50%;
-  height: 100vh;
-}
-@media (max-width: 1700px) {
-  .skills__block, .skills__img {
-    height: 80vh;
-  }
-}
-@media (max-width: 1420px) {
-  .skills__block, .skills__img {
-    height: 70vh;
-  }
-}
-@media (max-width: 1200px) {
-  .skills__block, .skills__img {
-    height: 60vh;
-  }
-}
-@media (max-width: 1000px) {
-  .skills__block, .skills__img {
-    height: 50vh;
-  }
-}
-@media (max-width: 950px) {
-  .skills__block, .skills__img {
-    height: 40vh;
-  }
 }
 @media (max-width: 770px) {
   .skills__block, .skills__img {
-    width: 100%;
+    width: 96%;
   }
+}
+.skills__img {
+  height: auto;
 }
 @media (max-width: 770px) {
   .skills__img {
-    height: auto;
     margin: 0 0 40px 0;
   }
 }
 .skills__block {
   color: #fff;
-  background: #000;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -707,45 +685,43 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100vh;
 }
-@media (max-width: 1700px) {
-  .skills__block {
-    height: 80vh;
-  }
+.skills__bl_text {
+  width: 60%;
 }
 @media (max-width: 1420px) {
-  .skills__block {
-    height: 70vh;
-  }
-}
-@media (max-width: 1200px) {
-  .skills__block {
-    height: 60vh;
-  }
-}
-@media (max-width: 1000px) {
-  .skills__block {
-    height: 50vh;
-  }
-}
-@media (max-width: 950px) {
-  .skills__block {
-    height: 40vh;
+  .skills__bl_text {
+    width: 70%;
   }
 }
 @media (max-width: 770px) {
-  .skills__block {
-    height: auto;
-    padding: 100px 20px;
+  .skills__bl_text {
+    width: 80%;
+    padding: 50px 0;
+  }
+}
+@media (max-width: 500px) {
+  .skills__bl_text {
+    width: 96%;
   }
 }
 .skills__title {
   padding: 0 0 60px 0;
+  white-space: nowrap;
 }
-@media (max-width: 950px) {
+@media (max-width: 1100px) {
   .skills__title {
-    padding: 0 0 40px 0;
+    padding: 0 0 30px 0;
+  }
+}
+@media (max-width: 770px) {
+  .skills__title {
+    padding: 0 0 45px 0;
+  }
+}
+@media (max-width: 400px) {
+  .skills__title {
+    white-space: unset;
   }
 }
 .skills__group {
@@ -767,14 +743,14 @@ ul {
 }
 @media (max-width: 1200px) {
   .skills__group {
-    padding: 0 0 5px 0;
+    padding: 0 0 0 0;
     margin: 0 0 20px 0;
-    width: 90%;
   }
 }
 @media (max-width: 770px) {
   .skills__group {
-    width: 100%;
+    padding: 0 0 10px 0;
+    margin: 0 0 30px 0;
   }
 }
 .skills__group p {
@@ -783,9 +759,14 @@ ul {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-@media (max-width: 950px) {
+@media (max-width: 1200px) {
   .skills__group p {
     font-size: 13px;
+  }
+}
+@media (max-width: 770px) {
+  .skills__group p {
+    font-size: 15px;
   }
 }
 .skills__group::before {
@@ -844,7 +825,7 @@ ul {
 }
 @media (max-width: 950px) {
   .funs {
-    width: 97%;
+    width: 96%;
   }
 }
 @media (max-width: 770px) {
@@ -951,7 +932,7 @@ ul {
 }
 @media (max-width: 1420px) {
   .blog {
-    width: 97%;
+    width: 96%;
   }
 }
 .blog__up {
@@ -1075,7 +1056,7 @@ ul {
 }
 @media (max-width: 1420px) {
   .talk__body {
-    width: 97%;
+    width: 96%;
   }
 }
 @media (max-width: 770px) {
@@ -1158,7 +1139,7 @@ ul {
 }
 @media (max-width: 1420px) {
   .footer {
-    width: 97%;
+    width: 96%;
   }
 }
 @media (max-width: 950px) {
