@@ -926,3 +926,103 @@ ul {
       color: #747474;
    }
 }
+
+.thogths {
+   padding: 150px 0 0 0;
+   width: 100%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   &__title {
+      text-align: center;
+      padding: 0 10px 95px 10px;
+   }
+   &__items {
+      display: flex;
+      width: 460px;
+      &::-webkit-scrollbar {
+         display: none;
+      }
+      @media(max-width: 490px) {
+         width: 100%;
+         padding: 0 10px;
+      }
+   }
+   &__item {
+      width: 460px;
+      height: 348px;
+      text-align: center;
+      padding: 39px 0 0 0;
+      background: #fff;
+      position: relative;
+      border: 1px solid #000;
+      @media(max-width: 490px) {
+         width: 100%;
+      }
+      @media(max-width: $wd4) {
+         height: 360px;
+      }
+   }
+   &__sliders {
+      display: flex;
+      margin: 30px 0 0 0;
+      span {
+         width: 10px;
+         height: 10px;
+         background: rgba(34, 34, 34, 0.4);
+         margin: 0 6px 0 0;
+         cursor: pointer;
+         &:last-child {
+            margin: 0 0 0 0;
+         }
+         &:hover {
+            background: #222222;
+         }
+         @media(max-width: 490px) {
+            margin: 0 30px 0 0;
+            width: 20px;
+            height: 20px;
+         }
+      }
+   }
+}
+
+.item01 {
+   &__text1 {
+      font-size: 20px;
+      line-height: 26 / 20 * 100%;
+      padding: 0 0 28px 0;
+      width: 80%;
+      margin: auto;
+      @media(max-width: 490px) {
+         font-size: 18px;
+      }
+   }
+   &__img {
+      padding: 0 0 20px 0;
+   }
+   &__text2 {
+      font-size: 17px;
+      line-height: 20 / 17 * 100%;
+      text-transform: uppercase;
+      padding: 0 0 5px 0;
+      @media(max-width: 490px) {
+         font-size: 15px;
+      }
+   }
+   &__text3 {
+      font-size: 17px;
+      line-height: 22/ 17 * 100%;
+      color: #747474;
+      @media(max-width: 490px) {
+         font-size: 15px;
+      }
+   }
+   &__block {
+      position: absolute;
+      bottom: 22px;
+      left: 50%;
+      transform: translateX(-50%);
+   }
+}

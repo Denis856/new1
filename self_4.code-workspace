@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\HTML\\examples\\карточки\\img_diferent_color"
+		},
+		{
+			"path": "..\\self_2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "self_4"
+	}
+}
